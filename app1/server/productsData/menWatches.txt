@@ -1,0 +1,12 @@
+{
+"list":[
+    {"name":"rolex","image":"blehimage","detail":"some detailss.."},
+    {"name":"fossil","image":"blhblh","detail":"some detailss.."},
+    {"name":"Titan","image":"somesome","detail":"some detailss.."},
+    {"name":"fastrack","image":"somesome","detail":"some detailss.."},
+    {"name":"sonata","image":"somesome","detail":"some detailss.."},
+    {"name":"apple watch","image":"somesome","detail":"some detailss.."},
+    {"name":"edifice","image":"somesome","detail":"some detailss.."}
+]
+
+}

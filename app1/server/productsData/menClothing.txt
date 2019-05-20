@@ -1,0 +1,12 @@
+{
+"list":[
+    {"name":"shirts","image":"blehimage","detail":"some detailss.."},
+    {"name":"jeans","image":"blhblh","detail":"some detailss.."},
+    {"name":"T-shirts","image":"somesome","detail":"some detailss.."},
+    {"name":"pants","image":"somesome","detail":"some detailss.."},
+    {"name":"shorts","image":"somesome","detail":"some detailss.."},
+    {"name":"blazers","image":"somesome","detail":"some detailss.."},
+    {"name":"hats","image":"somesome","detail":"some detailss.."}
+]
+
+}

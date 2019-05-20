@@ -1,0 +1,13 @@
+
+      <div id="navbar">
+        <app-nav></app-nav>
+      </div>
+      <ul>
+        <li *ngFor='let item of products'>
+          {{item.category}}
+        </li>
+      </ul>
+      <router-outlet>
+      </router-outlet>
+
+

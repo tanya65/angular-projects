@@ -1,0 +1,17 @@
+{
+    "list":[
+    {"name":"nykaa","image":"bleh"},
+    {"name":"maybelline mauve","image":"blhblh"},
+    {"name":"maybelline nude","image":"somesome"},
+    {"name":"elle 18","image":"somesome"},
+    {"name":"collosal","image":"somesome"},
+    {"name":"lakme cream","image":"somesome"},
+    {"name":"lakme remover","image":"somesome"},
+    {"name":"loreal shampoo","image":"somesome"},
+    {"name":"wella mask","image":"somesome"},
+    {"name":"naturals","image":"somesome"},
+    {"name":"wella shampoo","image":"somesome"},
+    {"name":"miniso moisturiser","image":"somesome"}
+
+    ]
+}
