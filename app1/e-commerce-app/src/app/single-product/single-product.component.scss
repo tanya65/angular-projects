@@ -1,0 +1,15 @@
+
+#imgdiv{
+    //background-image: url('../../images/bell_bottom.jpg');
+    height:600px;
+    width:600px;
+    
+}
+.mdc-button.mdc-button--raised{
+    background-color: #123d6a;
+    text-transform: none;
+  }
+#alert{
+    opacity:0;
+    transition: all 0.5s ease-in;
+}

@@ -1,0 +1,46 @@
+<html >
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="message.js"></script>
+        <script src="songs.js"></script>
+    </head>
+    <body>
+        <!-- <div ng-app="myModule">
+                2+10={{2+10}}
+        
+                <div ng-controller="myController">
+                   <div>
+                       {{message}}
+                   </div>
+                    <div>
+        
+                        {{student.name}} aged {{student.age}} secured {{student.grade}} grade successfully.
+                        
+                    </div>
+                   <div>
+                       <input ng-model="student.name">
+                       
+                   </div>
+                </div>
+        </div>
+        
+        <br> -->
+        <div ng-app="songsList">
+            <div ng-controller="songsController">
+                <ul >
+                    <li ng-repeat="item in list">
+                        {{item.singer}} => {{$index}}
+                        <br>
+                        <ul>
+                                <li ng-repeat="song in item.songs">
+                                        {{song}} => P:{{$parent.$index}} , C:{{$index}}
+                                </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </body>
+</html>

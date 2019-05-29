@@ -1,8 +1,52 @@
-<div>
-  <div style="width:300px;height:300px;background-color:pink;float:left">
-<img src="{{image}}" style="width:100%;height:100%">
+<link rel="stylesheet" href="https://unpkg.com/material-components-web/dist/material-components-web.min.css">
+<script src="https://unpkg.com/material-components-web/dist/material-components-web.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<div style="width:100%;height:600px;text-align: center;background-color: #F5F5F5;padding-top:5%" >
+  
+  <div style="width:70%;height:70%;background-color: darkgoldenrod;display: inline-block">
+    
+    <div style="width:40%;height: 100%;background-color: darkorchid;display: inline;float: left;">
+      <img src="images/{{image}}" style="width:100%;height:100%">
+    </div>
+
+    <div style="width:60%;height: 100%;display:inline;float: left;text-align: center; ">
+      <div id="alert" #alert style="width:100%;height:20px;margin:10px 0;">
+        Added to favourites!
+      </div>
+      <div style="width:300px;height:300px;display: inline-block;margin-top:10%;">
+        {{detail}}
+      </div>
+
+    </div>
+
   </div>
-  <div style="width:300px;height:300px;background-color:yellow;float:left">
-{{detail}}
+  <div style="width:70%;height:7%;display: inline-block;">
+    <div style="width: 40%;height: 100%;text-align: center;padding-left: 3%">
+
+      <div style="display: block;margin: 5px 10px 5px 0px;float: left;">
+        <button id="add-to-favorites"
+          class="mdc-icon-button"
+          aria-label="Add to favorites"
+          aria-hidden="true"
+          aria-pressed="false" style="display:block;">
+          <i #someclass class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on" (click)="clicked($event)">favorite</i>
+          <i class="material-icons mdc-icon-button__icon" (click)="clicked($event)">favorite_border</i>
+        </button>
+
+      </div>
+      <div style="display: block;float: left;margin: 10px;">
+        <button class="mdc-button mdc-button--raised">
+          <span class="mdc-button__label">Add to Cart</span>
+        </button>
+      </div>
+      <div style="display: block;float: left;margin: 10px;">
+        <button class="mdc-button mdc-button--raised">
+          <span class="mdc-button__label">Buy Now</span>
+        </button>
+      </div>
+
+    </div>
   </div>
+
 </div>

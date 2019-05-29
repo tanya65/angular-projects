@@ -1,8 +1,8 @@
 #left{
 
+background-color:#edc8b8; 
 width:20%;
 height:600px;
-background-color: green;
 float:left;
 padding-top: 50px;
 text-align: center;
@@ -11,17 +11,14 @@ text-align: center;
 #right{
 
 width:80%;
-height:700px;
-background-color: pink;
- 
+height:700px; 
 text-align: center;
 display: inline-block;
 }
 
 .product-div{
     width:90%;
-    height:600px;
-    background-color:brown;
+    height:600px; 
     display: block;
     margin-left: 30px;
     margin-top: 30px;

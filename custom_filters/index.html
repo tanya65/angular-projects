@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body ng-app="myModule"> 
+
+        <div ng-controller="myController">
+            <div ng-repeat="employ in employees ">
+                {{employ.name}}
+                {{employ.gender | genderValue}}
+            </div>
+        </div>
+        <br>
+        <div ng-init="json={name:'tanya',age:22}">
+            hello
+            <b>{{json.name}}</b>
+            <p>{{json.age}}</p>
+        </div>
+
+    </body>
+</html>

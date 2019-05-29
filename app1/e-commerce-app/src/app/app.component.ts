@@ -13,6 +13,8 @@ import { of } from 'rxjs';
 })
 export class AppComponent {
 
+  favourites:Array<String>;
+
   constructor(private httpClient:HttpClient, private dbservice: DatabaseStubService){
 
   }

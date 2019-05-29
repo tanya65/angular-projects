@@ -1,0 +1,10 @@
+<ul>
+    <li ng-repeat="student in students">
+        {{student.name}}
+        <ul>
+            <li ng-repeat="subject in student.subjects"> 
+                {{subject}}
+            </li>
+        </ul>
+    </li>
+</ul>

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Filters</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+        <script src="script.js"></script>
+
+        <style>
+        
+        table, td, th, tr{
+            border:1px solid grey;
+            border-collapse: collapse;
+            padding:10px;
+        }
+        .heading{
+            cursor: pointer;
+        }
+
+        </style>
+    </head>
+    <body ng-app="myModule">
+
+        <div ng-controller="myController">
+            <input type="number"  min=0 max=5 step=1 ng-model="rowLimit">
+
+            <!-- <select ng-model="orderby">
+                <option value="name">name</option>
+                <option value="Salary">Salary</option>
+                <option value="-DoB">DOB</option>
+            </select> -->
+
+            <input  placeholder="search" ng-model="searchtext">
+            
+            <table >
+                <tr>
+                    <th ng-click="sortbyme($event)" class="heading">
+                        name
+                    </th>
+                    <th ng-click="sortbyme($event)" class="heading">
+                        DoB
+                    </th>
+                    <th ng-click="sortbyme($event)" class="heading">
+                        Salary
+                    </th>
+                    <th ng-click="sortbyme($event)"><!-- this won't work as this key doesn't exist in the script.js employees array-->
+                        SalaryCurrency 
+                    </th>
+                </tr>
+                
+                    <tr ng-repeat="employ in employees |  orderBy:orderbyItem | limitTo:rowLimit | filter:searchtext" >
+                        <td >
+                            {{employ.name | uppercase}}
+                        </td>
+                        <td>
+                            {{employ.DoB | date:"dd MMM yyyy"}}
+                        </td>
+                        <td>
+                            {{employ.Salary | number:2}}
+                        </td>
+                        <td>
+                            {{employ.Salary | currency:"€":1}}
+                        </td>
+                    </tr>
+                
+            </table>
+            
+        </div>
+
+    </body>
+</html>

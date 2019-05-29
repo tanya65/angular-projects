@@ -1,9 +1,9 @@
 {
 "list":[
      {"name":"crop top","image":"crop_top.jpg","detail":"some detailss.."},
-    {"name":"jeans","image":"blhblh","detail":"some detailss.."},
+    {"name":"jeans","image":"jeans_women.jpg","detail":"some detailss.."},
     {"name":"pilazo","image":"somesome","detail":"some detailss.."},
-    {"name":"bell bottoms","image":"bell_bottom.jpg"},
+    {"name":"bell bottoms","image":"bell_bottom.jpg","detail":"some detailss.."},
     {"name":"shorts","image":"somesome"},
     {"name":"bikini","image":"somesome"},
     {"name":"kurta","image":"somesome"},

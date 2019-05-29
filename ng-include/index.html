@@ -1,0 +1,33 @@
+<html>
+    <head>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="script.js"></script>
+
+    </head>
+    <body ng-app="myModule">
+
+        <select id="display" onchange='changed()'>
+            <option value="list.html">List</option>
+            <option value="table.html">Table</option>
+        </select>
+        
+        <div ng-controller="myController" id="bodyDiv" >
+                <div ng-include="'list.html'"></div>
+        </div>
+
+        <script>
+            function changed(){
+                
+               
+                let val=document.getElementById("display").value;
+            console.log("val: "+val)
+            let divv=document.getElementById("bodyDiv");
+            
+                divv.innerHTML=`<div ng-include="'`+val+`'" class="ng-scope"></div>`;  
+            
+            }
+            
+        </script>
+    </body>
+</html>
