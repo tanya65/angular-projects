@@ -7,12 +7,12 @@ import { WomenClothingComponent } from './women-clothing/women-clothing.componen
 import { WomenCosmeticsComponent } from './women-cosmetics/women-cosmetics.component';
 import { MenWatchesComponent } from './men-watches/men-watches.component';
 import { MenClothingComponent } from './men-clothing/men-clothing.component';
-import {SingleProductComponent} from './single-product/single-product.component'
+import { SingleProductComponent } from './single-product/single-product.component'
 
 
 
 const routes:Routes=[
-  
+  {path:'',component:HomeComponent},
   {path:'contact',component:ContactComponent},
   {path:'home',component:HomeComponent},
   {path:'products',component:ProductComponent,

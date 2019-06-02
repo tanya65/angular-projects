@@ -1,3 +1,7 @@
-    <a routerLink="/product/{{category}}/{{source.name}}" id="imagediv" >
-        <p>{{source.name}}</p>
-    </a>
+   
+            <div id="main-box">
+                    <a routerLink="/product/{{category}}/{{source.name}}" id="imagediv" [style.background-image]="sanitise()" style="background-position: center;background-size: cover" >
+                    </a>
+                    <span style="margin-top:10px;display:block;font-weight: bold;color:#484848">{{source.name}}</span>
+            </div>
+  

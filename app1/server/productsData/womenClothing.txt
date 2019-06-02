@@ -1,18 +1,18 @@
 {
 "list":[
-     {"name":"crop top","image":"crop_top.jpg","detail":"some detailss.."},
-    {"name":"jeans","image":"jeans_women.jpg","detail":"some detailss.."},
-    {"name":"pilazo","image":"somesome","detail":"some detailss.."},
-    {"name":"bell bottoms","image":"bell_bottom.jpg","detail":"some detailss.."},
-    {"name":"shorts","image":"somesome"},
-    {"name":"bikini","image":"somesome"},
-    {"name":"kurta","image":"somesome"},
-    {"name":"kurta","image":"somesome"},
-    {"name":"kurta","image":"somesome"},
-    {"name":"kurta","image":"somesome"},
-    {"name":"kurta","image":"somesome"},
-    {"name":"kurta","image":"somesome"}
- 
+    
+    {"name":"sleepwear","image":"../../../images/sleepwear.jpg"},
+    {"name":"skirt","image":"../../../images/skirt.jpg"},
+    {"name":"dupatta","image":"../../../images/dupatta.jpg"},
+    {"name":"trousers","image":"../../../images/trousers_white.jpg"}, 
+     {"name":"crop top","image":"../../../images/crop_top.jpg","detail":"some detailss.."},
+    {"name":"jeans","image":"../../../images/jeans_women.jpg","detail":"some detailss.."},
+    {"name":"pilazo","image":"../../../images/pilazo.jpg","detail":"some detailss.."},
+    {"name":"shorts","image":"../../../images/shorts_women.jpg"},
+    {"name":"kurta","image":"../../../images/kurta.jpg"},
+    {"name":"bell bottoms","image":"../../../images/bell_bottom.jpg","detail":"some detailss.."},
+     {"name":"dress","image":"../../../images/yellow_dress.jpg"}
+   
 ]
 
 }

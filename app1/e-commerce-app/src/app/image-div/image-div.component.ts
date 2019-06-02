@@ -1,9 +1,13 @@
-import { Component, OnInit, Input , ElementRef} from '@angular/core';
+import { Component, OnInit, Input , Pipe, PipeTransform} from '@angular/core';
+import { DomSanitizer, SafeHtml, SafeStyle, SafeScript, SafeUrl, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-image-div',
   templateUrl: './image-div.component.html',
   styleUrls: ['./image-div.component.scss']
+})
+@Pipe({
+  name: 'safe'
 })
 export class ImageDivComponent implements OnInit {
 
@@ -12,8 +16,12 @@ export class ImageDivComponent implements OnInit {
   @Input() source:Object;
 
 
-  constructor() { 
+  constructor(protected sanitizer: DomSanitizer) {}
+
+  sanitise(){
+   return this.sanitizer.bypassSecurityTrustStyle(`url('`+this.source["image"]+`')`);
   }
+  
 
   ngOnInit() {
   }

@@ -25,21 +25,17 @@ public something=["a","b","c"];
 
   ngOnInit(){
    this.showconfig();
-   this.httpClient.get('http://localhost:4444/email').subscribe((data)=>console.log("data is: "+data));
+
+   //example line to show how get request can be made
+   //this.httpClient.get('http://localhost:4444/email').subscribe((data)=>console.log("data is: "+data));
     }
   showconfig(){
-    this.dbservice.getProducts()
-    .subscribe(data=>console.log("in app: "+JSON.stringify(data)))
 
-    //this.myObservable.subscribe(this.myObserver);
+    //example code to show the use of 'subscribe' in getting data from a local file
+
+    /*this.dbservice.getProducts()
+    .subscribe(data=>console.log("in app: "+JSON.stringify(data)));*/
+  
   }
-
-   myObservable = of(1, 2, 3);
  
-// Create observer object
- myObserver = {
-  next: x => console.log('Observer got a next value: ' + x),
-  error: err => console.error('Observer got an error: ' + err),
-  complete: () => console.log('Observer got a complete notification'),
-};
 }
