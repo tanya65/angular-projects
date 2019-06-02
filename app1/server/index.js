@@ -67,13 +67,12 @@ app.post("/ProductDetail",(req,res)=>{
   let category=req.body.category;
   let item_name=req.body.item;
   let output="item not found!";
-console.log("category: "+category+" item:"+item_name);
+
 
 switch(category){
 case 'Women-Clothes':
 if(list_women_clothing!=""){
   for(let item of list_women_clothing){
-    console.log("item.name:"+JSON.stringify(item));
     if(item.name==item_name){
       output=item;
       break;
@@ -91,7 +90,6 @@ else{
       
       if(item.name==item_name){
         output=item;
-        console.log("found! :"+item.detail);
         break;
       }
 

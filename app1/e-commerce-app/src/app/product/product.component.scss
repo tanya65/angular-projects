@@ -3,15 +3,18 @@ a{
     color: #ffe2e0;
     
 }
-.active{
-    color:red !important;
+
+.ad:hover{
+box-shadow: 1px 5px 15px 3px rgba(52,52,52,0.8);
+border-radius: 20px;
+cursor: pointer;
 }
 
 #left{
 color:#ffe2e0;
 background-color:#205081; 
 width:20%;
-height:700px;
+height:1000px;
 float:left;
 padding-top: 50px;
 text-align: center;
@@ -20,17 +23,17 @@ box-shadow:4px 5px 15px -1px rgba(0,0,0,0.64)
 }
 #right{
 
-width:80%;
-height:600px; 
+width:76%;
+height:1000px; 
 text-align: center;
 display: inline-block;
 }
 
 .product-div{
     width:90%;
-    height:600px; 
+    height:700px; 
     display: block;
-    margin-left: 30px;
+    margin-left: 3%;
     margin-top: 30px;
     text-align: center;
     padding:30px 50px;

@@ -17,7 +17,6 @@ list:Object
     this.http.get('http://localhost:4444/womenClothing')
     .subscribe((data)=>{
       this.list=data;
-      console.log("women-clothes:"+JSON.stringify(this.list))
     })
 
   }

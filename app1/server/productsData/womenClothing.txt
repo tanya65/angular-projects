@@ -1,17 +1,28 @@
 {
 "list":[
     
-    {"name":"sleepwear","image":"../../../images/sleepwear.jpg"},
-    {"name":"skirt","image":"../../../images/skirt.jpg"},
-    {"name":"dupatta","image":"../../../images/dupatta.jpg"},
-    {"name":"trousers","image":"../../../images/trousers_white.jpg"}, 
-     {"name":"crop top","image":"../../../images/crop_top.jpg","detail":"some detailss.."},
-    {"name":"jeans","image":"../../../images/jeans_women.jpg","detail":"some detailss.."},
-    {"name":"pilazo","image":"../../../images/pilazo.jpg","detail":"some detailss.."},
-    {"name":"shorts","image":"../../../images/shorts_women.jpg"},
-    {"name":"kurta","image":"../../../images/kurta.jpg"},
-    {"name":"bell bottoms","image":"../../../images/bell_bottom.jpg","detail":"some detailss.."},
-     {"name":"dress","image":"../../../images/yellow_dress.jpg"}
+    {"name":"sleepwear","image":"../../../images/sleepwear.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"skirt","image":"../../../images/skirt.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"dupatta","image":"../../../images/dupatta.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"trousers","image":"../../../images/trousers_white.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}, 
+     {"name":"crop top","image":"../../../images/crop_top.jpg",
+     "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"jeans","image":"../../../images/jeans_women.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"pilazo","image":"../../../images/pilazo.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"shorts","image":"../../../images/shorts_women.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"kurta","image":"../../../images/kurta.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+    {"name":"bell bottoms","image":"../../../images/bell_bottom.jpg",
+    "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+     {"name":"dress","image":"../../../images/yellow_dress.jpg",
+     "detail":"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
    
 ]
 

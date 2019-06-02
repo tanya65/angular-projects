@@ -55,7 +55,7 @@ export class SingleProductComponent implements OnInit {
       console.log("2ndchild");
       event.target.classList.add('mdc-icon-button__icon--on');
       event.target.previousSibling.classList.remove('mdc-icon-button__icon--on');
-      this.alertBox.nativeElement.style.opacity=1;
+      this.alertBox.nativeElement.style.opacity=0.7;
       setTimeout(() => {
         this.alertBox.nativeElement.style.opacity=0;
       }, 1500);
